@@ -260,13 +260,32 @@ a{
     margin-top: 2%;
   }
 }
-@media(min-width:800px) and (max-width:1400px){
-     .desc{
+@media(min-width:800px) and (max-width:1000px){
+  .desc{
     font-size: .80rem;
     line-height: 1.5;
     padding:3%;
     font-family: "roboto";
     font-weight: 200;
     margin-top: 2%;
-  }
+    
+}
+.col-image{
+  width:100%;
+}
+}
+
+@media(min-width:1000px) and (max-width:1200px){
+  .desc{
+    font-size: 1rem;
+    line-height: 1.5;
+    padding:3%;
+    font-family: "roboto";
+    font-weight: 200;
+    margin-top: 2%;
+    
+}
+.col-image{
+  width:100%;
+}
 }
