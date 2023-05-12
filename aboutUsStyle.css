@@ -1,0 +1,103 @@
+
+.nav-link{
+    margin:1em 1em;
+}
+
+.list{
+    margin-right:3em;
+}
+
+.instaicon{
+    padding-left:0.5em;
+}
+.brand-name{
+   
+    color:#B2B2B2;
+    font-size: 2rem;
+    font-family:  'Sofia Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+.brand-name-part{
+  font-size:1.5rem;
+  font-weight: 300;
+
+}
+
+.box{
+    width: 90%;
+    margin:5% 5%;
+
+}
+
+.heading{
+        padding: 1rem 1rem 0rem 1rem;
+        text-align: left;
+        font-size:3rem;
+        font-family:  'Sofia Sans', sans-serif;
+        color:#B2B2B2;
+}
+
+.desc{
+    font-family: "roboto";
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 1%;
+
+}
+.aboutUsimg{
+    width:80%;
+    margin: 2% 0% 0% 10%;
+    box-shadow: 0.1rem 0.1rem 1.5rem goldenrod;
+}
+
+.value{
+    text-decoration: underline;
+}
+
+.footer{
+    margin:2% auto 2%;
+    padding:5% auto;
+  }
+  
+  .footer-div{
+      
+    width:40%;
+    text-align: center;
+    margin:0 auto;
+  }
+  .footer-icon{
+    margin:2%;
+  }
+  
+  a{
+    text-decoration: none;
+    color:#000000;
+  }
+  .copyright{
+    margin:4%;
+  }
+
+
+  @media(max-width:1000px){
+    .heading{
+        font-size:2rem;
+       line-height: 1.5;
+       padding:0.2rem 0.2rem 0rem 0.2rem;
+       font-family: "roboto";
+       font-weight: 200;
+       text-align: left;
+       }
+       .desc{
+        font-family: "roboto";
+       font-size: 1rem;
+       text-align: justify;
+       margin: 0.5%;
+  }
+  .aboutUsimg{
+    width:100%;
+    margin: 7% 0% 0% 0%;
+    box-shadow: 0.1rem 0.1rem 1.5rem goldenrod;
+  }
+}
