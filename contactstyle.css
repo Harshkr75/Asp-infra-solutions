@@ -84,7 +84,7 @@
     margin:4%;
   }
 
-  @media(min-width:576px) and (max-width:700px){
+ @media(min-width:576px) and (max-width:700px){
     .brand-cont{
       text-align: center;
     font-family: 'Sofia Sans', sans-serif;
@@ -93,8 +93,8 @@
     }
 
     .display{
-      width:80%;
-      margin:2% 15%;
+      width:100%;
+      margin:2% 5%;
       box-shadow: 0.5rem 0.5rem 1rem palevioletred;
       
      }
@@ -104,6 +104,35 @@
       font-weight:400;
       font-size: 0.8rem;
     }
-  
+    .map-cont{
+      width:300px;
+      height:300px;
+    }
+  }
+
+  @media(min-width:700px) and (max-width:1100px){
+    .brand-cont{
+      text-align: center;
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 1.8em;
+    color:#508571;
+    }
+
+    .display{
+      width:100%;
+      margin:2% 5%;
+      box-shadow: 0.5rem 0.5rem 1rem palevioletred;
+      
+     }
+     .cont-details{
+      padding: 5%;
+      font-family: "montserrat";
+      font-weight:400;
+      font-size: 1rem;
+    }
+    .map-cont{
+      width:350px;
+      height:350px;
+    }
   }
   
