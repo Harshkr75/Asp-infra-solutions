@@ -144,7 +144,7 @@ a{
 @media(max-width:800px){
       
   .desc{
-    font-size: .70rem;
+    font-size: 1rem;
     line-height: 1.5;
     padding:3%;
     font-family: "roboto";
@@ -154,7 +154,7 @@ a{
   }
   .feature{
     text-align: left;
-    font-size: .55rem;
+    font-size: .70rem;
     line-height: 1.5;
     color:#B2B2B2;
     font-family: "roboto";
@@ -164,7 +164,7 @@ a{
   
   .feature_const{
     text-align: left;
-    font-size: .55rem;
+    font-size: .70rem;
     line-height: 1.5;
     color:#B2B2B2;
     font-family: "roboto";
@@ -176,7 +176,7 @@ a{
 
 @media(max-width:1000px){
   .desc{
-    font-size: .80rem;
+    font-size: .1.5rem;
     line-height: 1.5;
     padding:3%;
     font-family: "roboto";
@@ -186,7 +186,7 @@ a{
   }
   .feature{
     text-align: left;
-    font-size: .60rem;
+    font-size: .90rem;
     line-height: 1.5;
     color:#B2B2B2;
     font-family: "roboto";
@@ -196,7 +196,7 @@ a{
   
   .feature_const{
     text-align: left;
-    font-size: .60rem;
+    font-size: .90rem;
     line-height: 1.5;
     color:#B2B2B2;
     font-family: "roboto";
